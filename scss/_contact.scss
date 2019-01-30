@@ -36,6 +36,14 @@ section.contact {
                     }
                 }
             }
+            &.social-youtube {
+                a {
+                    background-color: $brand-youtube;
+                    &:hover {
+                        background-color: darken($brand-youtube, 5%);
+                    }
+                }
+            }
             &.social-google-plus {
                 a {
                     background-color: $brand-google-plus;
